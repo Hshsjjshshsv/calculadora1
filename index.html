@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="...">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="calc">
+        <div class="tela">
+            <input type="text" id="display" value="0">
+        </div>
+        <div class="botoes">
+            <button onclick="addValue(7)">7</button>
+            <button onclick="addValue('8')">8</button>
+            <button onclick="addValue('9')">9</button>
+            <button onclick="addValue2('+')" class="op">+</button>
+            <button onclick="addValue('4')">4</button>
+            <button onclick="addValue('5')">5</button>
+            <button onclick="addValue('6')">6</button>
+            <button onclick="addValue2('-')" class="op">-</button>
+            <button onclick="addValue('1')">1</button>
+            <button onclick="addValue('2')">2</button>
+            <button onclick="addValue('3')">3</button>
+            <button onclick="addValue2('*')" class="op">x</button>
+            <button onclick="c('clear')" class="clear">C</button>
+            <button onclick="addValue()"> 0</button>
+            <button onclick="addValue3('result')" class="rs">=</button>
+            <button onclick="addValue2('/')" class="op">/</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
